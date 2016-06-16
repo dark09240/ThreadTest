@@ -15,6 +15,12 @@
 		B6BB20A11D113E6000C68CCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6BB209F1D113E6000C68CCD /* LaunchScreen.storyboard */; };
 		B6BB20AC1D113E6000C68CCD /* ThreadTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6BB20AB1D113E6000C68CCD /* ThreadTestTests.m */; };
 		B6BB20B71D113E6000C68CCD /* ThreadTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6BB20B61D113E6000C68CCD /* ThreadTestUITests.m */; };
+		B6BB20C61D113EBE00C68CCD /* ThreadTestOne.m in Sources */ = {isa = PBXBuildFile; fileRef = B6BB20C51D113EBE00C68CCD /* ThreadTestOne.m */; };
+		B6BB20C91D11406C00C68CCD /* ThreadTestTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = B6BB20C81D11406C00C68CCD /* ThreadTestTwo.m */; };
+		B6BB20CF1D11420C00C68CCD /* ThreadTestThree.m in Sources */ = {isa = PBXBuildFile; fileRef = B6BB20CE1D11420C00C68CCD /* ThreadTestThree.m */; };
+		B6BB20D21D11439A00C68CCD /* ThreadTestFour.m in Sources */ = {isa = PBXBuildFile; fileRef = B6BB20D11D11439A00C68CCD /* ThreadTestFour.m */; };
+		B6BB20D51D1145A000C68CCD /* ThreadTestFive.m in Sources */ = {isa = PBXBuildFile; fileRef = B6BB20D41D1145A000C68CCD /* ThreadTestFive.m */; };
+		B6BB20D81D11477500C68CCD /* ThreadTestSix.m in Sources */ = {isa = PBXBuildFile; fileRef = B6BB20D71D11477500C68CCD /* ThreadTestSix.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,18 @@
 		B6BB20B21D113E6000C68CCD /* ThreadTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThreadTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6BB20B61D113E6000C68CCD /* ThreadTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreadTestUITests.m; sourceTree = "<group>"; };
 		B6BB20B81D113E6000C68CCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6BB20C41D113EBE00C68CCD /* ThreadTestOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreadTestOne.h; sourceTree = "<group>"; };
+		B6BB20C51D113EBE00C68CCD /* ThreadTestOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreadTestOne.m; sourceTree = "<group>"; };
+		B6BB20C71D11406C00C68CCD /* ThreadTestTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreadTestTwo.h; sourceTree = "<group>"; };
+		B6BB20C81D11406C00C68CCD /* ThreadTestTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreadTestTwo.m; sourceTree = "<group>"; };
+		B6BB20CD1D11420C00C68CCD /* ThreadTestThree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreadTestThree.h; sourceTree = "<group>"; };
+		B6BB20CE1D11420C00C68CCD /* ThreadTestThree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreadTestThree.m; sourceTree = "<group>"; };
+		B6BB20D01D11439A00C68CCD /* ThreadTestFour.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreadTestFour.h; sourceTree = "<group>"; };
+		B6BB20D11D11439A00C68CCD /* ThreadTestFour.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreadTestFour.m; sourceTree = "<group>"; };
+		B6BB20D31D1145A000C68CCD /* ThreadTestFive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreadTestFive.h; sourceTree = "<group>"; };
+		B6BB20D41D1145A000C68CCD /* ThreadTestFive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreadTestFive.m; sourceTree = "<group>"; };
+		B6BB20D61D11477500C68CCD /* ThreadTestSix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreadTestSix.h; sourceTree = "<group>"; };
+		B6BB20D71D11477500C68CCD /* ThreadTestSix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreadTestSix.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +119,18 @@
 		B6BB20901D113E5F00C68CCD /* ThreadTest */ = {
 			isa = PBXGroup;
 			children = (
+				B6BB20C41D113EBE00C68CCD /* ThreadTestOne.h */,
+				B6BB20C51D113EBE00C68CCD /* ThreadTestOne.m */,
+				B6BB20C71D11406C00C68CCD /* ThreadTestTwo.h */,
+				B6BB20C81D11406C00C68CCD /* ThreadTestTwo.m */,
+				B6BB20CD1D11420C00C68CCD /* ThreadTestThree.h */,
+				B6BB20CE1D11420C00C68CCD /* ThreadTestThree.m */,
+				B6BB20D01D11439A00C68CCD /* ThreadTestFour.h */,
+				B6BB20D11D11439A00C68CCD /* ThreadTestFour.m */,
+				B6BB20D31D1145A000C68CCD /* ThreadTestFive.h */,
+				B6BB20D41D1145A000C68CCD /* ThreadTestFive.m */,
+				B6BB20D61D11477500C68CCD /* ThreadTestSix.h */,
+				B6BB20D71D11477500C68CCD /* ThreadTestSix.m */,
 				B6BB20941D113E5F00C68CCD /* AppDelegate.h */,
 				B6BB20951D113E5F00C68CCD /* AppDelegate.m */,
 				B6BB20971D113E5F00C68CCD /* ViewController.h */,
@@ -270,8 +300,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6BB20C61D113EBE00C68CCD /* ThreadTestOne.m in Sources */,
+				B6BB20D21D11439A00C68CCD /* ThreadTestFour.m in Sources */,
+				B6BB20C91D11406C00C68CCD /* ThreadTestTwo.m in Sources */,
 				B6BB20991D113E5F00C68CCD /* ViewController.m in Sources */,
+				B6BB20D81D11477500C68CCD /* ThreadTestSix.m in Sources */,
 				B6BB20961D113E5F00C68CCD /* AppDelegate.m in Sources */,
+				B6BB20D51D1145A000C68CCD /* ThreadTestFive.m in Sources */,
+				B6BB20CF1D11420C00C68CCD /* ThreadTestThree.m in Sources */,
 				B6BB20931D113E5F00C68CCD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
